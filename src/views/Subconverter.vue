@@ -884,7 +884,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "http://192.168.5.149:25500" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://sub.986985.xyz:8061/api" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
         excludeRemarks: "",
@@ -1417,6 +1417,7 @@ export default {
   }
 };
 </script>
+
 
 
 
