@@ -478,7 +478,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "默认后端": "http://192.168.5.149:25500",
+          "默认后端": "https://sub.986985.xyz:8061/api",
           "肥羊增强型后端【vless reality+anytls】": "https://api.v1.mk",
           "肥羊备用后端【vless reality+anytls】": "https://url.v1.mk",
         },
@@ -1417,6 +1417,7 @@ export default {
   }
 };
 </script>
+
 
 
 
