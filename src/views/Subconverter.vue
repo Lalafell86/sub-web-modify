@@ -478,7 +478,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "默认后端": "https://sub.986985.xyz:8061/api",
+          "默认后端": "https://sub.986985.xyz:9443/api",
           "肥羊增强型后端【vless reality+anytls】": "https://api.v1.mk",
           "肥羊备用后端【vless reality+anytls】": "https://url.v1.mk",
         },
@@ -884,7 +884,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://sub.986985.xyz:8061/api" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://sub.986985.xyz:9443/api" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
         excludeRemarks: "",
@@ -1417,6 +1417,7 @@ export default {
   }
 };
 </script>
+
 
 
 
